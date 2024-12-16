@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="icon" href="./assets/image/faveicon.ico">
+    <title>Weather Infinity</title>
+</head>
+<body>
+    <main>
+        <header>
+            <div class="container">
+                <div class="inner_head">
+                    <div class="logo">
+                        <a href="#">
+                            <img src="./assets/image/logo.png" alt="">
+                            <img src="./assets/image/logo_mobile.png" class="mobile_logo" alt="">
+                        </a>
+                    </div>
+
+                    <div class="right-main">
+                        <div class="search_field">
+                            <label class="form-label" id="search-label"><i class="fa-solid fa-magnifying-glass"></i></label>
+                            <input type="text" class="form-control" id="search_input" placeholder="Search City....">
+                        </div>
+    
+                        <div class="dark-light-box">
+                            <i class="fa-solid fa-moon"></i>
+                            <i class="fa-solid fa-sun"></i>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </header>
+
+        <section class="main-section">
+            <div class="container">
+                <div class="row tody_data gy-lg-0 gy-5 gx-5">
+                    <div class="col-lg-7">
+                        <div class="common-box border_add current">
+                            <div class="left_data">
+                              <div>
+                                  <div class="location"><i class="fa-solid fa-location-dot"></i> Bangladesh</div>
+                                  <h2>Wednesday</h2>
+                                  <h5>Nov 13, 2024</h5>
+                              </div>
+                             
+                              <div>
+                                <h3>04:54 PM</h3>
+                                <h5>Dhaka, Bangladesh</h5>
+                              </div>
+                            </div>
+
+                      <div class="center-data">
+                          <h3 class="cel">29.9<sup>o</sup>C</h3>
+                          <h5>High: 30.8    Low: 21.5</h5>
+                      </div>
+
+                      <div class="right-data">
+                          <img src="./assets/image/icons/day/113.svg" alt="">
+                          <h3>Sunny</h3>
+                      </div>
+                    </div>
+                    </div>
+
+                    <div class="col-lg-5 ">
+                        <div class="inner-common-box border_add">
+                            <h4>Today Highlight</h4>
+                            <div class="today_highlight">
+                                <div class="common-box">
+                                    <h5>Chance of Rain</h5>
+                                    <div class="bottom">
+                                        <img src="./assets/image/icons/heavy-rain.png" alt="">
+                                        <h6><span id="rain">0</span>%</h6>
+                                    </div>
+                                </div>
+    
+                                <div class="common-box">
+                                    <h5>UV Index</h5>
+                                    <div class="bottom">
+                                        <img src="./assets/image/icons/brightness.png" alt="">
+                                        <h6><span id="uv">0</span>%</h6>
+                                    </div>
+                                </div>
+    
+                                <div class="common-box">
+                                    <h5>Wind Status</h5>
+                                    <div class="bottom">
+                                        <img src="./assets/image/icons/wind.png" alt="">
+                                        <h6><span id="wind">0</span> km/p</h6>
+                                    </div>
+                                </div>
+    
+                                <div class="common-box ">
+                                    <h5>Humidity</h5>
+                                    <div class="bottom">
+                                        <img src="./assets/image/icons/humidity.png" alt="">
+                                        <h6><span id="humidity">0</span>%</h6>
+                                    </div>
+                                </div>
+    
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row mt-lg-4 mt-5 gy-lg-0 gy-5">
+                    <div class="col-lg-7 my-box">
+
+                        <div class="common-box tody_details border_add">
+                            <div class="details_left">
+                               
+                                <div class="inner-common-box">
+                                    <h4>Today</h4>
+                                    <div class="hours_box_main">
+                                        <div class="hours_slider">
+                                            <div class="hours_data-box">
+                                                <div class="hours_data-inner">
+                                                    <p>1PM</p>
+                                                    <img src="./assets/image/icons/night/113.svg" alt="">
+                                                    <p>26<sup>o</sup></p>
+                                                    <img src="./assets/image/navigation.png" alt="">
+                                                    <p>2km/p</p>
+                                                </div>
+                                            </div>
+            
+                                            <div class="hours_data-box">
+                                                <div class="hours_data-inner">
+                                                    <p>1PM</p>
+                                                    <img src="./assets/image/icons/night/113.svg" alt="">
+                                                    <p>26<sup>o</sup></p>
+                                                    <img src="./assets/image/navigation.png" alt="">
+                                                    <p>2km/p</p>
+                                                </div>
+                                            </div>
+                                            <div class="hours_data-box">
+                                                <div class="hours_data-inner">
+                                                    <p>1PM</p>
+                                                    <img src="./assets/image/icons/night/113.svg" alt="">
+                                                    <p>26<sup>o</sup></p>
+                                                    <img src="./assets/image/navigation.png" alt="">
+                                                    <p>2km/p</p>
+                                                </div>
+                                            </div>
+            
+                                            <div class="hours_data-box">
+                                                <div class="hours_data-inner">
+                                                    <p>1PM</p>
+                                                    <img src="./assets/image/icons/night/113.svg" alt="">
+                                                    <p>26<sup>o</sup></p>
+                                                    <img src="./assets/image/navigation.png" alt="">
+                                                    <p>2km/p</p>
+                                                </div>
+                                            </div>
+            
+                                            <div class="hours_data-box">
+                                                <div class="hours_data-inner">
+                                                    <p>1PM</p>
+                                                    <img src="./assets/image/icons/night/113.svg" alt="">
+                                                    <p>26<sup>o</sup></p>
+                                                    <img src="./assets/image/navigation.png" alt="">
+                                                    <p>2km/p</p>
+                                                </div>
+                                            </div>
+            
+                                            <div class="hours_data-box">
+                                                <div class="hours_data-inner">
+                                                    <p>1PM</p>
+                                                    <img src="./assets/image/icons/night/113.svg" alt="">
+                                                    <p>26<sup>o</sup></p>
+                                                    <img src="./assets/image/navigation.png" alt="">
+                                                    <p>2km/p</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+    
+                                <div class="tomorrow inner-common-box">
+
+                                    <div class="tomorrow-inner">
+                                        <div class="content">
+                                            <div class="left-content">
+                                                <h4>Tomorrow</h4>
+                                                <p>Thunder storm</p>
+                                            </div>
+                                            <div class="center-content">
+                                              <h5>22<sup>o</sup></h5>
+                                              <h6><span>High: 20</span>    <span>Low: 30</span></h6>
+                                            </div>
+                                            <img src="./assets/image/icons/night/113.svg" alt="">
+                                          </div>
+                                      </div>
+                                </div>
+                            </div>
+
+                            <div class="details_right today_more_details">
+
+                                <ul>
+                                    <li>
+                                        <div class="details_box">
+                                          <img src="./assets/image/sunrise.png" alt="">
+                                          <div class="content">
+                                            <p>sunrise</p>
+                                            <span>6:45AM</span>
+                                          </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="details_box">
+                                          <img src="./assets/image/sunset.png" alt="">
+                                          <div class="content">
+                                            <p>sunset</p>
+                                            <span>6:45AM</span>
+                                          </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="details_box">
+                                          <img src="./assets/image/moonrise.png" alt="">
+                                          <div class="content">
+                                            <p>moonrise</p>
+                                            <span>6:45AM</span>
+                                          </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                     <div class="details_box">
+                                          <img src="./assets/image/moonset.png" alt="">
+                                          <div class="content">
+                                            <p>moonset</p>
+                                            <span>6:45AM</span>
+                                          </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-lg-5">
+                        <div class="other_cities_main">
+                            <h4>Other Citys</h4>
+                            <div class="other_cities">
+                                <div class="common-box border_add">
+                                    <div class="content">
+                                        <h5>26<sup>o</sup></h5>
+                                        <p>USA,retgertertert</p>
+                                    </div>
+                                    <img src="./assets/image/icons/night/113.svg" alt="">
+                                </div>
+    
+                                <div class="common-box border_add">
+                                    <div class="content">
+                                        <h5>26<sup>o</sup></h5>
+                                        <p>USA,retgertertert</p>
+                                    </div>
+                                    <img src="./assets/image/icons/night/113.svg" alt="">
+                                </div>
+    
+                                <div class="common-box border_add">
+                                    <div class="content">
+                                        <h5>26<sup>o</sup></h5>
+                                        <p>USA,retgertertert</p>
+                                    </div>
+                                    <img src="./assets/image/icons/night/113.svg" alt="">
+                                </div>
+    
+                                <div class="common-box border_add">
+                                    <div class="content">
+                                        <h5>26<sup>o</sup></h5>
+                                        <p>USA,retgertertert</p>
+                                    </div>
+                                    <img src="./assets/image/icons/night/113.svg" alt="">
+                                </div>
+    
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row mt-lg-0 mt-5 seven_day_row">
+                    <h4>Week Weather</h4>
+                    <div class="seven_day_list">
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="background_image"></div>
+    </main>
+    
+</body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="./assets/js/script.js"></script>
+    <script src="./assets/js/test.js"></script>
+    <script src="./assets/js/city.js"></script>
+</html>

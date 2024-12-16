@@ -1,0 +1,234 @@
+/*main responsive */
+@media(min-width:1600px) and (max-width:1920px) {
+    .container{
+        max-width: -webkit-fill-available !important;
+        margin: 0 150px !important;
+    }
+}
+
+@media(min-width:1400px) and (max-width:1600px) {
+    .container{
+        max-width: -webkit-fill-available !important;
+        margin: 0 80px !important;
+    }
+    
+}
+
+@media(min-width:1200px) and (max-width:1400px) {
+    .container{
+        max-width: -webkit-fill-available !important;
+        margin: 0 60px !important;
+    }
+}
+
+@media(min-width:992px) and (max-width:1200px) {
+    .container{
+        max-width: -webkit-fill-available !important;
+        margin: 0 40px !important;
+    }
+}
+
+@media(min-width:576px) and (max-width:992px) {
+    .container{
+        max-width: -webkit-fill-available !important;
+        margin: 0 30px !important;
+    }
+}
+@media(min-width:320px) and (max-width:576px) {
+    .container{
+        max-width: -webkit-fill-available !important;
+        margin: 0 15px !important;
+    }
+    
+}
+
+@media(max-width:1600px){
+    .tody_details {
+        flex-wrap: wrap;
+    }
+    .tody_details .details_left {
+        width: 100%;
+    }
+    .tody_details .details_right {
+        margin-top: 2rem;
+        width: 100%;
+    }
+    .tody_details .details_right ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .tody_details .details_right li {
+        margin-top: 0px;
+    }
+    .details_box .content {
+        align-items: start;
+        margin-left: 4px;
+    }
+    .seven_day_list .seven_day_box {
+        width: 13%;
+    }
+    
+}
+
+@media(max-width:992px){
+    .col-lg-7.my-box {
+        transform: translateY(0px);
+    }
+    .inner_head .search_field {
+        height: clamp(4.5rem, 6vw, 5.1rem);
+        width: clamp(20rem, 58vw, 51.8rem);
+    }
+    .inner_head .search_field .form-label {
+        left: clamp(1.7rem, 3vw, 2.2rem);
+        font-size: clamp(1.8rem, 3vw, 2.2rem);
+    }
+    .inner_head .search_field .form-control {
+        padding-left: clamp(2.5rem, 5vw, 4.5rem);
+    }
+    .details_box img {
+        width: clamp(5rem, 3vw, 5.2rem);
+        height: auto;
+    }
+    .seven_day_list {
+        justify-content: space-between;
+        flex-wrap: wrap;
+        row-gap: 42px;
+    }
+    .seven_day_list .seven_day_box {
+        width: 29%;
+    }
+    .seven_day_list .seven_day_box img {
+        width: 16rem;
+        margin: auto;
+    }
+    .seven_day_row{
+        transform: translateY(0rem);
+    }
+}
+@media(max-width:768px){
+    .logo img{
+       display: none;
+    }
+    .logo img.mobile_logo{
+        display: block;
+    }
+    .logo a {
+        height: clamp(4.5rem, 4vw, 5.5rem);
+    }
+    .tody_details .details_right ul {
+        flex-wrap: wrap;
+    }
+    .tody_details .details_right li {
+        width: 47%;
+        margin-top: 25px;
+    }
+    .tody_details .details_right li:nth-child(1),
+    .tody_details .details_right li:nth-child(2) {
+        margin-top: 0px;
+    }
+    .common-box h5 {
+        font-size: clamp(1.6rem, 1vw, 1.9rem);
+    }
+    .today_highlight .bottom h6 {
+        font-size: clamp(1.6rem, 1vw, 1.9rem);
+    }
+    .seven_day_list .seven_day_box img {
+        width: 10rem;
+    }
+}
+
+@media(max-width:576px){
+    .tody_data .common-box {
+        flex-direction: column;
+        align-items: center;
+    }
+    .tody_data .left_data {
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-between;
+        align-items: self-end;
+    }
+    .tody_data h3 {
+        margin-top: 0px;
+    }
+    .today_highlight .bottom img {
+        height: 41px;
+    }
+    .today_highlight .bottom h6 {
+        margin-top: 36px;
+    }
+    
+    .today_highlight .common-box h5 {
+        text-align: center;
+    }
+    .tomorrow.inner-common-box .tomorrow-inner .content {
+        flex-direction: column;
+    }
+    .tomorrow.inner-common-box .tomorrow-inner .content .left-content {
+        text-align: center;
+        margin-bottom: 1.5rem;
+    }
+    .tomorrow.inner-common-box .tomorrow-inner .content .center-content {
+        text-align: center;
+        margin: 2rem 0;
+    }
+    .tomorrow.inner-common-box .tomorrow-inner p {
+        margin-top: 0px;
+    }
+}
+
+@media(max-width:480px){
+    .seven_day_list .seven_day_box {
+        width: 48%;
+    }
+    .seven_day_list .seven_day_box img {
+        width: 7rem;
+    }
+    .tody_details .details_right ul {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .tody_details .details_right li:nth-child(1), .tody_details .details_right li:nth-child(2) {
+        margin-top: 25px;
+    }
+    .other_cities .common-box {
+        width: 100%;
+    }
+    .other_cities .common-box:nth-child(1), .other_cities .common-box:nth-child(2) {
+        margin-top: 18px;
+    }
+    .other_cities {
+        flex-direction: column;
+    }
+    .common-box h2 {
+        font-size: clamp(2.12rem, 3vw, 4.1rem);
+        line-height: clamp(2.7rem, 3vw, 4.8rem);
+    }
+    .common-box h3 {
+        font-size: clamp(2.12rem, 3vw, 4.1rem);
+        line-height: clamp(2.7rem, 3vw, 4.8rem);
+    }
+    .inner_head .search_field {
+        height: clamp(4.1rem, 6vw, 5.1rem);
+        width: clamp(16rem, 58vw, 51.8rem);
+    }
+    .right-main .dark-light-box {
+        height: 24px;
+        background-color: white;
+        width: 45px;
+    }
+    .right-main .dark-light-box i {
+        width: 23px;
+        background-color: gray;
+        text-align: center;
+        height: 100%;
+        line-height: 23px;
+        color: white;
+        border-radius: 12px;
+    }
+    .common-box .location {
+        padding: 8px 13px;
+        font-size: 15px;
+    }
+}
